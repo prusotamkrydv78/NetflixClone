@@ -1,0 +1,291 @@
+@media (max-width: 768px) {
+  header .netflixLogo img {
+    height: 30px;
+  }
+  header nav .signInBtn button {
+    font-size: 13px;
+    padding: 7px 15px;
+  }
+  .firstSection {
+    gap: 15px;
+  }
+  .firstSection h1 {
+    font-size: 30px;
+  }
+  .firstSection h4 {
+    font-size: 20px;
+  }
+  .firstSection .desc {
+    font-size: 15px;
+  }
+  .firstSection input {
+    font-size: 14px;
+    padding: 0px 7px;
+    width: 230px;
+    height: 35px;
+  }
+  .firstSection button {
+    font-size: 14px;
+    padding: 7px 11px;
+  }
+
+  .secondSection .left h3 {
+    font-size: 30px;
+  }
+  .secondSection .left h4 {
+    font-size: 15px;
+  }
+
+  .thirdSection .right {
+    padding-right: 29px;
+  }
+  .thirdSection .right h2 {
+    font-size: 30px;
+  }
+  .thirdSection .right h1 {
+    font-size: 20px;
+  }
+  .thirdSection .mobile {
+    height: 6cm;
+    width: 9cm;
+  }
+  .thirdSection .box .innerLeft img {
+    height: 50px;
+  }
+  .thirdSection .box .mid {
+    width: 90px;
+    font-size: 12px;
+  }
+  .thirdSection .box .innerRight img {
+    width: 45px;
+  }
+  .thirdSection .left .box {
+    left: 2.5cm;
+    height: 49px;
+  }
+  .forthSection h1 {
+    font-size: 34px;
+  }
+  .forthSection h4 {
+    font-size: 20px;
+  }
+  .fifthSection .left {
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fifthSection .right h1 {
+    font-size: 30px;
+  }
+  .fifthSection .right h4 {
+    font-size: 16px;
+  }
+  .fifthSection .left img {
+    width: 70%;
+    height: 55%;
+  }
+  .sixthSection h1 {
+    font-size: 30px;
+  }
+  .sixthSection .questions div {
+    font-size: 16px;
+    padding: 10px 25px;
+    width: 60vw;
+    border-radius: 1px;
+  }
+  .sixthSection .bottomPart p {
+    font-size: 16px;
+  }
+  .sixthSection .bottomPart input {
+    font-size: 15px;
+
+    padding: 4px 9px;
+    width: 250px;
+    border-radius: 2px;
+    height: 30px;
+  }
+  .sixthSection .bottomPart button {
+    font-size: 16px;
+    padding: 5px 9px;
+    border-radius: 3px;
+  }
+  footer div ul {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 22px 11px;
+  }
+}
+
+@media (max-width: 425px) {
+  header nav {
+    justify-content: space-around;
+    margin: 0;
+  }
+  .firstSection h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .firstSection h4 {
+    font-size: 1.3rem;
+  }
+  .firstSection .desc {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .firstSection {
+    padding: 0 0.5rem;
+  }
+  .secondSection .left h3 {
+    font-size: 2.5rem;
+  }
+  .secondSection {
+    padding: 2rem 0;
+    flex-direction: column;
+    padding: 0 3rem;
+  }
+  .secondSection .left {
+    padding-left: 0;
+    width: 100%;
+  }
+  .secondSection .right video {
+    width: 54%;
+    left: 33px;
+    top: 39px;
+  }
+  .secondSection div {
+    width: auto;
+  }
+  .thirdSection {
+    flex-direction: column-reverse;
+  }
+  .thirdSection .right {
+    padding: 0;
+    width: 100%;
+  }
+  .thirdSection .right h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .thirdSection .right h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .thirdSection > div {
+    width: auto;
+  }
+  .thirdSection .left .box {
+    left: 4.2rem;
+  }
+  .forthSection {
+    padding: 5rem 2rem;
+    height: auto;
+  }
+  .forthSection h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  .forthSection h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .fifthSection {
+    flex-direction: column-reverse;
+  }
+  .fifthSection div {
+    width: auto;
+  }
+  .fifthSection .right h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .fifthSection .right h4 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .fifthSection .left img {
+    width: 80%;
+    height: 100%;
+  }
+  .sixthSection h1 {
+    font-size: 1.6rem;
+  }
+  .sixthSection .bottomPart p {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 2rem;
+  }
+  footer span {
+    margin-left: unset;
+  }
+  footer div ul {
+    grid-template-columns: 1fr 1fr;
+    gap: 22px 35px;
+  }
+}
+
+/* code for mobile responsiveness */
+@media (max-width: 320px) {
+  .firstSection h1 {
+    font-size: 1.3rem;
+  }
+  .firstSection h4 {
+    font-size: 1rem;
+  }
+  .firstSection .desc p {
+    font-size: 1rem;
+  }
+  .firstSection form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .firstSection button {
+    font-size: 1rem;
+    padding: 7px 0px;
+    width: 8rem;
+  }
+  .secondSection {
+    padding: 0 1rem;
+  }
+  .secondSection .left h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .secondSection .left h4 {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .secondSection .right {
+    align-items: center;
+  }
+  .secondSection .right video {
+    left: unset;
+    top: unset;
+  }
+  .thirdSection .right h2 {
+    font-size: 1.2rem;
+  }
+  .thirdSection .right h1 {
+    font-size: 1rem;
+  }
+  .forthSection {
+    padding: 5rem 0rem;
+  }
+  .forthSection h1 {
+    font-size: 2rem;
+  }
+  .sixthSection h1 {
+    font-size: 1.3rem;
+  }
+  .sixthSection .bottomPart form {
+    align-items: center;
+    flex-direction: column;
+  }
+  .sixthSection .bottomPart button {
+    width: 8rem;
+  }
+  footer div {
+    justify-content: unset;
+  }    footer div ul {
+    grid-template-columns:  1fr;
+  }
+}

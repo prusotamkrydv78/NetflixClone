@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+
+}
+body{
+  background-color: #232323;
+}
+main {
+  
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.headerSection {
+  background-image: url("./images/background.png");
+  height: 110vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.55;
+  z-index: 1;
+}
+
+.headerSection header,
+section {
+  position: relative;
+  z-index: 2;
+}
+
+.netflixLogo img {
+  height: 40px;
+}
+
+header nav {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 139px;
+}
+
+header nav .signInBtn button {
+  border: none;
+  font-size: 15px;
+  padding: 10px 19px;
+  background: #d50d16;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+}
+
+.firstSection {
+  height: calc(110vh - 100px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 25px;
+}
+
+.firstSection h1 {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.firstSection h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.firstSection .desc {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstSection input {
+  font-size: 16px;
+  outline: none;
+  padding: 15px 15px;
+  width: 318px;
+  background: rgb(26, 25, 24);
+  border: 2px solid #5f6163;
+  border-radius: 4px;
+  color: #5f6163;
+}
+
+.firstSection form {
+  display: flex;
+  gap: 7px;
+  justify-items: baseline;
+}
+
+.firstSection button {
+  border: none;
+  font-size: 24px;
+  padding: 12px 14px;
+  background: #d50d16;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+}
+
+.secondSection {
+  height: 80vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondSection div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  color: white;
+}
+.secondSection .left {
+  padding-left: 130px;
+}
+
+.secondSection .left h3 {
+  font-size: 45px;
+}
+.secondSection .left h4 {
+  font-size: 24px;
+  font-weight: 400;
+}
+.secondSection .right {
+  position: relative;
+}
+.secondSection .right img {
+  width: 75%;
+}
+.secondSection .right video {
+  position: absolute;
+  z-index: -1;
+  width: 57%;
+  left: 47px;
+  top: 57px;
+}
+
+.thirdSection {
+  height: 80vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.thirdSection > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.thirdSection .right {
+  padding-right: 170px;
+}
+.thirdSection .right h2 {
+  font-size: 52px;
+}
+.thirdSection .right h1 {
+  font-weight: 400;
+  font-size: 25px;
+}
+.thirdSection .left {
+  position: relative;
+}
+.thirdSection .mobile {
+  height: 9cm;
+  width: 13cm;
+}
+.thirdSection .left .box {
+  border: 2px solid gray;
+  position: absolute;
+  left: 13rem;
+  padding: 8px;
+  height: 83px;
+  bottom: 21px;
+  background: black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+.thirdSection .box .innerLeft img {
+  height: 90px;
+}
+.thirdSection .box .mid {
+  width: 130px;
+  font-size: 15px;
+}
+.thirdSection .box .mid span:nth-child(2) {
+  color: blue;
+}
+.thirdSection .box .innerRight img {
+  width: 60px;
+}
+.forthSection {
+  background: black;
+  color: white;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 150px;
+  gap: 15px;
+}
+.forthSection h1 {
+  font-size: 50px;
+}
+.forthSection h4 {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.fifthSection {
+  background: black;
+  color: white;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+}
+.fifthSection div {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.fifthSection .left {
+  padding-left: 130px;
+}
+.fifthSection .left img {
+  width: 80%;
+  height: 75%;
+}
+.fifthSection .right {
+  gap: 15px;
+}
+.fifthSection .right h1 {
+  font-size: 50px;
+}
+.fifthSection .right h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.sixthSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+ background-color: black;
+ color: white;
+ padding-top: 20px;
+ gap: 15px;
+}
+.sixthSection h1{
+  font-size: 50px;
+}
+.sixthSection .questions{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sixthSection .questions div{ 
+  background-color: #3A3A3A;
+  font-size: 25px;
+  padding: 25px;
+  width: 70vw;
+}
+.sixthSection .bottomPart{
+  margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+.sixthSection .bottomPart p{
+  font-size: 20px;
+}
+
+.sixthSection .bottomPart input {
+  font-size: 16px;
+  outline: none;
+  padding: 15px 15px;
+  width: 318px;
+  background: rgb(26, 25, 24);
+  border: 2px solid #5f6163;
+  border-radius: 4px;
+  color: #5f6163;
+}
+
+.sixthSection .bottomPart form {
+  display: flex;
+  gap: 7px;
+  justify-items: baseline;
+}
+
+.sixthSection .bottomPart button {
+  border: none;
+  font-size: 24px;
+  padding: 12px 14px;
+  background: #d50d16;
+  border-radius: 6px;
+  font-weight: 500;
+  color: white;
+}
+footer{
+  background: black;
+  margin-top: 10px;
+  color: white;
+  display: flex; 
+  height: 60vh;
+  padding: 50px;flex-direction: column;
+  gap: 29px;
+
+}
+footer div ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 22px 120px
+}
+footer div ul li {
+ color: #808080; 
+ text-decoration: underline;
+ list-style: none;
+ text-decoration-color: #808080;
+}
+footer span{
+  color: #808080; 
+  text-decoration: underline;
+  
+  text-decoration-color: #808080;
+  margin-left: 90px;
+}
+footer div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer span select{
+  outline: none;
+  border: 2px solid #808080;
+  color: white;
+  padding: 3px 10px;
+  border-radius: 4px;
+  background: #000;
+  font-size: 15px;
+}
